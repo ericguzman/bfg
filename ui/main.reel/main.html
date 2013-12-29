@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Main</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script type="text/montage-serialization">
+        {
+            "owner": {
+                "properties": {
+                    "element": {"#": "main"}
+                }
+            },
+            "pageNavigator": {
+                "prototype": "ui/page-navigator.reel",
+                "properties": {
+                  "element": {"#": "page-navigator"},
+                  "pageData": {"@": "pageData"}
+                }
+            },
+            "pageData": {
+                "object": "/assets/data/page-data"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div data-montage-id="main" data-montage-skin="light" class="main">
+      <div data-montage-id="page-navigator" class="page-navigator"></div>
+    </div>
+</body>
+</html>
