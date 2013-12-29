@@ -1,18 +1,5 @@
-{{name}}
+{{BFG}}
 ==============
-
-This is the Montage app template.
-
-Note: Before working on your app you will need to add montage to it.
-
-```
-npm install .
-```
-
-Layout
-------
-
-The template contains the following files and directories:
 
 * `index.html`
 * `package.json` – Describes your app and its dependencies
